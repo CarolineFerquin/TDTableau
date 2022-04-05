@@ -1,0 +1,95 @@
+/* --------------------------------------------------------------
+Import de la font Open depuis Google Fonts
+-------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+/* --------------------------------------------------------------
+Layout de la page
+-------------------------------------------------------------- */
+
+/* Déclarations CSS qui seront hérités par l'ensemble des éléments html enfant */
+body {
+    background-color: rgb(65, 56, 56);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 250%;
+    color: white;
+}
+
+/* Déclarations CSS qui centre le titre principal de la page */
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*Déclaration du tableau */
+table
+{
+    border-collapse: collapse;
+    border:3px solid;
+    width:90%;
+    margin: auto;
+}
+td, th
+{
+    border: 3px solid rgba(112, 111, 111, 0.993);
+    text-align: center;
+}
+.starter
+{
+    background-color: #ff9d00;
+}
+.différents
+{
+    background-color: white;
+    color: black;
+}
+.medium
+{
+    background-color: #ec3d45 ;
+}
+.premium
+{
+    background-color: #08b9ca
+    ;
+}
+.vingtneuf
+{
+    color: #ff9d00
+}
+.quarante
+{
+    color: #ec3d45
+}
+.soixantedix
+{
+    color: #08b9ca
+}
+.rouge
+{
+    color: red;
+}
+.vert
+{
+    color: green
+}
+.plan
+{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 0px;
+    background-color: #ff9d00;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+
